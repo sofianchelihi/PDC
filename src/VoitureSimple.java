@@ -1,7 +1,7 @@
 public class VoitureSimple extends AbstractVoiture{
 
 
-    public void VoitureSimple(String numChassis,String matricule,String marque ,int prixBase){
+    public VoitureSimple(String numChassis,String matricule,String marque ,int prixBase){
         this.numChassis=numChassis;
         this.marque=marque;
         this.matricule=matricule;

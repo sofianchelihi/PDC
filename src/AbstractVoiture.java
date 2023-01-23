@@ -1,4 +1,6 @@
-public abstract class AbstractVoiture {
+import java.io.Serializable;
+
+public abstract class AbstractVoiture implements Serializable {
     protected String numChassis;
     protected String matricule;
     protected String marque;
