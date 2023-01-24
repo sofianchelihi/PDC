@@ -14,6 +14,7 @@ public class StockageVoiture {
     }
 
     public void add(AbstractVoiture v) {
+
         liste.add(v);
     }
 
@@ -31,15 +32,7 @@ public class StockageVoiture {
         }
     }
 
-    public AbstractVoiture getVoitureByMatricule(String Matricule) {
-        for(AbstractVoiture v: liste) {
-            if(v.getMatricule().equals(Matricule)) {
-                return v;
-            }
-        }
 
-        return null;
-    }
 
 
 }

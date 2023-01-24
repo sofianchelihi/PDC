@@ -6,6 +6,13 @@ public abstract class AbstractVoiture implements Serializable {
     protected String marque;
     protected int prixBase;
 
+    public AbstractVoiture(String numChassis, String matricule, String marque, int prixBase) {
+        this.numChassis = numChassis;
+        this.matricule = matricule;
+        this.marque = marque;
+        this.prixBase = prixBase;
+    }
+
     public abstract int getCout();
 
     public String getNumChassis() {

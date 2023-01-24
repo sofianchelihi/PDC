@@ -2,11 +2,7 @@ public class VoitureSimple extends AbstractVoiture{
 
 
     public VoitureSimple(String numChassis,String matricule,String marque ,int prixBase){
-        this.numChassis=numChassis;
-        this.marque=marque;
-        this.matricule=matricule;
-        this.prixBase=prixBase;
-
+        super(numChassis,matricule,marque,prixBase);
     }
     public  int getCout(){
         return this.getPrixBase();
