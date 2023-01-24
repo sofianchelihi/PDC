@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba2face7-b919-4b4a-9aed-f7ac0ec0f4b3" name="Changes" comment="">
+    <list default="true" id="067a8a8c-ec5d-4904-9574-6cd0d2ca9969" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ParCash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParFacilite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PayStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VoitureDecore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VoitureDecore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
