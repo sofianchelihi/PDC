@@ -3,13 +3,17 @@ import java.util.ArrayList;
 
 public class StockageVoiture {
     private ArrayList<AbstractVoiture> liste;
-    private static StockageVoiture instance = new StockageVoiture();
+    private static StockageVoiture instance;
 
     private StockageVoiture() {
         this.liste = new ArrayList<AbstractVoiture>();
     }
 
     public static StockageVoiture getInstance() {
+        if(instance == null) {
+            instance = new StockageVoiture();
+        }
+
         return instance;
     }
 
